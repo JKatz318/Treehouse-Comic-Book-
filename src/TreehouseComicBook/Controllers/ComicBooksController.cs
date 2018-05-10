@@ -10,6 +10,9 @@ namespace TreehouseComicBook.Controllers
     {
         public ActionResult Detail()
         {
+            var comicBook = new ComicBook();
+
+
             ViewBag.SeriesTitle = "The Amazing Spider-Man";
             ViewBag.IssueNumber = 700;
             ViewBag.Description = "<p>Final issue!Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>";
@@ -17,7 +20,7 @@ namespace TreehouseComicBook.Controllers
                 {
                     "Script: Dan Slott",
                     "Pencils: Humberto Ramos",
-                    "Inks: Victor Olazaba",
+                    "Inks:   Olazaba",
                     "Colors: Edgar Delgado",
                     "Letters: Chris Eliopoulos"
                 };
